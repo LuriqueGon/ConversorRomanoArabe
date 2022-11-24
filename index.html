@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Coloque um valor e marque qual tipo do número</h1>
+
+    <div class="input-line">
+        <div class="input-field">
+            <input type="text" id="numberValue" placeholder="Insira um valor entra 1 - 3999 / I - MMMCMXCIX ">
+        </div>
+
+        <div class="button-field">
+            
+            <button class="optionItemSelect" onclick="selecionar(this)">Arabico</button>
+            <button class="optionItemSelect" onclick="selecionar(this)">Romano</button>
+            <button onclick="converter()">Converter</button>
+        </div>
+    </div>
+    <h3>Resultado: <span class="res"></span></h3>
+    
+</body>
+<script src="conversor.js" defer></script>
+<script src="script.js" defer></script>
+<script>
+    
+</script>
+</html>

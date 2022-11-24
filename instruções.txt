@@ -1,0 +1,23 @@
+#Conversão de Arabe para Romano : 
+
+    Selecionar o button "ARABICO", então ele ficará verde como forma de mostrar que pode ser usado.
+
+    Digitar um número valido (1,2,3 ... 3997,3998,3999 ).
+
+    Apertar Enter ou clicar em Converter.
+
+    O resultado será impresso ao lado da palavra "resultado".
+    
+#Conversão de Romano para Arabe :
+
+    O sistema funciona do mesmo modo, só que as regras mudam.
+
+    Marca-se a opção "Romano";
+    
+    Insere um número romano valido (I, IV, V, IX ... M)
+
+    Apertar Enter ou clicar em Converter.
+
+    O resultado será impresso ao lado da palavra "resultado".
+
+Logo após tudo o sistema é resetado, apagando o numero do input, porém mantendo a opção marcada

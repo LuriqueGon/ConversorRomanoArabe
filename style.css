@@ -1,0 +1,52 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    width: 100%;
+    background-color: green;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: .5rem 0;
+    text-align: center;
+    color: white;
+    text-shadow: .1rem .2rem .5rem black;
+}
+.input-line{
+    display: flex;
+}
+.input-line .input-field input{
+    width: 34rem;
+    font-size: 1.2rem;
+    margin:  0 .4rem;
+    padding: .2rem 1rem;
+    letter-spacing: .1rem;
+}
+.optionItemSelect, button{
+    width: 15rem;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, .3);
+    cursor: pointer;
+    margin:  0 .4rem;
+    padding: .2rem 1rem;
+    letter-spacing: .1rem;
+    opacity: .8;
+
+}
+button:last-child{
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+}
+button:last-child:hover{
+    background-color: black;
+}
+button:hover{
+    opacity: 1;
+}
+button.select:hover{
+    background-color: rgba(0, 128, 0, 0.541);
+}
+.select{
+    background-color: rgba(0, 128, 0, 0.541);
+    opacity: 1;
+}
